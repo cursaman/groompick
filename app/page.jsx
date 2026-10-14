@@ -12,14 +12,14 @@ export default function Home() {
           <div className="hero-actions"><a className="button" href="tel:01065644992">가위닥터 사사끼에게 상담하기 <span aria-hidden="true">↗</span></a><a className="text-link" href="#services">연마·수리 알아보기</a></div>
           <div className="credentials"><div><strong>30<span>년</span></strong><p>가위 연마 경력</p></div><div><strong><span>약 </span>1,000<span>명</span></strong><p>함께하는 고객</p></div></div>
         </div>
-        <div className="hero-art hero-photo hero-portrait"><Image src="/images/scissor-doctor-portrait.png" alt="바닷가에서 미소 짓는 인물을 따뜻한 애니메이션 화풍으로 표현한 초상화" fill priority sizes="(max-width: 700px) calc(100vw - 48px), 440px"/><div className="photo-caption"><span>가위닥터 사사끼</span><p>가위 하나에 담는, 30년의 손길.</p></div></div>
+        <div className="hero-art hero-photo hero-portrait"><Image src="/images/scissor-doctor-portrait-autumn.png" alt="단풍과 가을 햇살이 있는 바닷가에서 미소 짓는 인물의 애니메이션 초상화" fill priority sizes="(max-width: 700px) calc(100vw - 48px), 440px"/><div className="photo-caption"><span>가위닥터 사사끼</span><p>가위 하나에 담는, 30년의 손길.</p></div></div>
       </section>
       <section id="services" className="services">
         <div className="section-heading"><div><p className="eyebrow">가위닥터 사사끼의 서비스</p><h2>오래 쓰는 가위의 곁에서.</h2></div><p>미용 가위와 애견 가위, 연마부터 수리까지.</p></div>
         <div className="service-grid">
-          <article><div className="service-art service-photo"><Image src="/images/scissor-sharpening.png" alt="숫돌 위에 놓인 일자 미용 가위, 정밀 연마 서비스 이미지" fill sizes="(max-width: 700px) calc(100vw - 48px), 360px"/></div><p className="service-type">01 / 정밀 연마</p><h3>무뎌진 날을 다듬다</h3><p>잘 들지 않는 미용·애견 가위의 날을 연마합니다.<br/>매일의 커트를 위한 섬세한 손길.</p></article>
-          <article><div className="service-art service-photo"><Image src="/images/scissor-restoration.png" alt="녹색 린넨 위 커브 가위, 날 복원 서비스 이미지" fill sizes="(max-width: 700px) calc(100vw - 48px), 360px"/></div><p className="service-type">02 / 날 복원</p><h3>절삭감을 되살리다</h3><p>날을 섬세하게 다듬는 정밀 복원.<br/>가위날 하나에도 30년의 경험을 담습니다.</p></article>
-          <article><div className="service-art service-photo"><Image src="/images/scissor-repair.png" alt="숱 가위와 정밀 드라이버, 수리 A/S 서비스 이미지" fill sizes="(max-width: 700px) calc(100vw - 48px), 360px"/></div><p className="service-type">03 / 수리 · A/S</p><h3>불편한 가위를 살피다</h3><p>사사끼 코리아 가위 A/S와 타사 가위 수리.<br/>미용·애견 가위의 불편을 상담해주세요.</p></article>
+          <article><div className="service-art service-photo"><Image src="/images/scissor-sharpening-autumn.png" alt="숫돌 위에 놓인 일자 미용 가위, 정밀 연마 서비스 이미지" fill sizes="(max-width: 700px) calc(100vw - 48px), 360px"/></div><p className="service-type">01 / 정밀 연마</p><h3>무뎌진 날을 다듬다</h3><p>잘 들지 않는 미용·애견 가위의 날을 연마합니다.<br/>매일의 커트를 위한 섬세한 손길.</p></article>
+          <article><div className="service-art service-photo"><Image src="/images/scissor-restoration-autumn.png" alt="가을 햇살이 비치는 크림색 린넨 위 커브 가위, 날 복원 서비스 이미지" fill sizes="(max-width: 700px) calc(100vw - 48px), 360px"/></div><p className="service-type">02 / 날 복원</p><h3>절삭감을 되살리다</h3><p>날을 섬세하게 다듬는 정밀 복원.<br/>가위날 하나에도 30년의 경험을 담습니다.</p></article>
+          <article><div className="service-art service-photo"><Image src="/images/scissor-repair-autumn.png" alt="숱 가위와 정밀 드라이버, 수리 A/S 서비스 이미지" fill sizes="(max-width: 700px) calc(100vw - 48px), 360px"/></div><p className="service-type">03 / 수리 · A/S</p><h3>불편한 가위를 살피다</h3><p>사사끼 코리아 가위 A/S와 타사 가위 수리.<br/>미용·애견 가위의 불편을 상담해주세요.</p></article>
         </div>
         <div className="service-notes" aria-label="수리 서비스 안내">
           <div><span className="note-number">01</span><h3>택배 접수 가능</h3><p>택배로 가위 수리를 맡기실 수 있습니다.<br/>발송 전 전화로 접수 안내를 받아주세요.</p></div>

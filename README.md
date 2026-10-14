@@ -10,9 +10,9 @@
 
 내용 참고: https://blog.naver.com/kuh4689/222617975844
 
-메인 이미지: `public/images/scissor-doctor-portrait.png`. 사용자 제공 인물 사진을 따뜻한 애니메이션 화풍으로 변환한 초상화입니다. 원래 제작한 작업 이미지 `public/images/scissor-doctor-craft.png`도 보관합니다.
+메인 이미지: `public/images/scissor-doctor-portrait-autumn.png`. 사용자 제공 인물 사진을 애니메이션 화풍으로 변환한 초상화에 단풍과 가을 햇살을 더했습니다. 기존 이미지도 보관합니다.
 
-서비스 카드의 `scissor-sharpening.png`, `scissor-restoration.png`, `scissor-repair.png`도 내장 도구로 제작했습니다. 제작 프롬프트는 `docs/service-image-prompts.md`에 기록했습니다.
+서비스 카드에는 `scissor-sharpening-autumn.png`, `scissor-restoration-autumn.png`, `scissor-repair-autumn.png`를 사용합니다. 전체 화면은 크림·밤색·차분한 주황색으로 구성했습니다. 내장 이미지 생성 도구의 제작 프롬프트와 파일 정보는 `docs/autumn-image-prompts.md`에 기록했습니다.
 
 ## 실행
 
