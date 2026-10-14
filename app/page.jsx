@@ -8,7 +8,7 @@ export default function Home() {
         <div className="hero-copy">
           <p className="eyebrow">전국 및 부산 가위 연마 · 사사끼 코리아 A/S 센터</p>
           <h1>가위 수리는 역시,<br/><span>가위닥터</span></h1>
-          <p className="description">30년 장인의 손길로 정교하게 복원하는 가위날.<br/>미용 가위부터 애견 가위까지, 다시 섬세하게.</p>
+          <p className="description">30년 장인의 손길로 정교하게 복원하는 가위날.<br/>헤어 미용 가위부터 애견미용 가위까지</p>
           <div className="hero-actions"><a className="button" href="tel:01096444689">가위닥터 사사끼에게 상담하기 <span aria-hidden="true">↗</span></a><a className="text-link" href="#services">연마·수리 알아보기</a></div>
           <div className="credentials"><div><strong>30<span>년</span></strong><p>가위 연마 경력</p></div><div><strong><span>약 </span>1,000<span>명</span></strong><p>함께하는 고객</p></div></div>
         </div>
