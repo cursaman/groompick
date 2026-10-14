@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 function Scissors({ curved = false, id = 'hero-scissors' }) {
   return <svg viewBox="0 0 320 220" fill="none" aria-hidden="true">
     <defs><linearGradient id={id} x1="60" y1="170" x2="270" y2="40" gradientUnits="userSpaceOnUse"><stop stopColor="#7a8580"/><stop offset=".5" stopColor="#e5eae7"/><stop offset="1" stopColor="#929f97"/></linearGradient></defs>
@@ -21,7 +23,7 @@ export default function Home() {
           <div className="hero-actions"><a className="button" href="tel:01096444689">가위닥터에게 상담하기 <span aria-hidden="true">↗</span></a><a className="text-link" href="#services">연마·수리 알아보기</a></div>
           <div className="credentials"><div><strong>20<span>년</span></strong><p>가위 연마 경력</p></div><div><strong><span>약 </span>1,000<span>명</span></strong><p>함께하는 고객</p></div></div>
         </div>
-        <div className="hero-art"><div className="art-circle"/><Scissors/><span className="art-label">SCISSOR DOCTOR</span><span className="art-number">20년의 손길 · 정밀한 날 복원</span></div>
+        <div className="hero-art hero-photo"><Image src="/images/scissor-doctor-craft.png" alt="미용 가위의 날을 섬세하게 손질하는 장인의 손을 표현한 이미지" fill priority sizes="(max-width: 700px) calc(100vw - 48px), 500px"/><div className="photo-caption"><span>가위닥터</span><p>가위 하나에 담는, 20년의 손길.</p></div></div>
       </section>
       <section id="services" className="services">
         <div className="section-heading"><div><p className="eyebrow">가위닥터가 하는 일</p><h2>오래 쓰는 가위의 곁에서.</h2></div><p>미용 가위와 애견 가위, 연마부터 수리까지.</p></div>

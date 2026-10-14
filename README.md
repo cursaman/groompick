@@ -8,6 +8,8 @@
 
 내용 참고: https://blog.naver.com/kuh4689/222617975844
 
+메인 이미지: `public/images/scissor-doctor-craft.png`. 내장 이미지 생성 도구로 제작한 브랜드 이미지이며 실제 대표 또는 작업 현장을 촬영한 사진이 아닙니다.
+
 ## 실행
 
 ```sh
