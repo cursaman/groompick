@@ -4,3 +4,4 @@
 .hero-photo img{object-fit:cover;object-position:center 65%}.hero-photo::after{content:'';position:absolute;inset:0;background:linear-gradient(transparent 65%,rgba(24,40,29,.7));pointer-events:none}.photo-caption{position:absolute;bottom:24px;left:26px;right:26px;z-index:1;color:#fff}.photo-caption span{font-size:12px;letter-spacing:1px}.photo-caption p{font-size:11px;margin:8px 0 0;opacity:.85}
 .service-art.service-photo{position:relative;height:auto;aspect-ratio:1;overflow:hidden}.service-photo img{object-fit:cover}
 @media(max-width:700px){.header{flex-wrap:wrap;gap:16px}.header .logo{font-size:20px}.header nav{gap:16px}}
+.hero-art.hero-portrait{width:100%;max-width:440px;height:auto;aspect-ratio:4/5;margin-inline:auto;border-radius:32px}.hero-portrait img{object-position:center 40%}@media(max-width:700px){.hero-art.hero-portrait{max-width:380px;height:auto}}

@@ -12,7 +12,7 @@ export default function Home() {
           <div className="hero-actions"><a className="button" href="tel:01096444689">가위닥터 사사끼에게 상담하기 <span aria-hidden="true">↗</span></a><a className="text-link" href="#services">연마·수리 알아보기</a></div>
           <div className="credentials"><div><strong>30<span>년</span></strong><p>가위 연마 경력</p></div><div><strong><span>약 </span>1,000<span>명</span></strong><p>함께하는 고객</p></div></div>
         </div>
-        <div className="hero-art hero-photo"><Image src="/images/scissor-doctor-craft.png" alt="미용 가위의 날을 섬세하게 손질하는 장인의 손을 표현한 이미지" fill priority sizes="(max-width: 700px) calc(100vw - 48px), 500px"/><div className="photo-caption"><span>가위닥터 사사끼</span><p>가위 하나에 담는, 30년의 손길.</p></div></div>
+        <div className="hero-art hero-photo hero-portrait"><Image src="/images/scissor-doctor-portrait.png" alt="바닷가에서 미소 짓는 인물을 따뜻한 애니메이션 화풍으로 표현한 초상화" fill priority sizes="(max-width: 700px) calc(100vw - 48px), 440px"/><div className="photo-caption"><span>가위닥터 사사끼</span><p>가위 하나에 담는, 30년의 손길.</p></div></div>
       </section>
       <section id="services" className="services">
         <div className="section-heading"><div><p className="eyebrow">가위닥터 사사끼의 서비스</p><h2>오래 쓰는 가위의 곁에서.</h2></div><p>미용 가위와 애견 가위, 연마부터 수리까지.</p></div>
