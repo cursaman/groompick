@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 86" fill="none">
+  <title>가위닥터 SINCE 1995</title>
+  <g fill="#24365c">
+    <text x="62" y="19" font-family="Arial,sans-serif" font-size="11" letter-spacing="1.5">SINCE 1995</text>
+    <text x="62" y="58" font-family="Batang,AppleMyungjo,serif" font-size="32" font-weight="700" letter-spacing="-1">가위닥터</text>
+  </g>
+  <g stroke="#24365c" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M40 16C35 7 19 7 15 18c-4 11 6 15 15 18 10 4 13 10 8 17-5 8-20 7-25-2" stroke-width="4"/>
+    <path d="M34 18c-5-5-14-4-14 2 0 7 12 8 17 12 9 7 9 19 1 25" stroke-width="2"/>
+    <path d="M19 40c-9-4-13 7-7 12 5 4 11-1 9-6M33 48c7-5 15 4 10 10-4 5-12 2-11-4" stroke-width="2.5"/>
+    <path d="m20 51 22 27-10-22M33 57 13 79l10-27" stroke-width="2.7"/>
+  </g>
+  <circle cx="27" cy="56" r="2.5" fill="#24365c"/>
+</svg>
