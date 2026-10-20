@@ -16,7 +16,9 @@
 
 내용 참고: https://blog.naver.com/kuh4689/222617975844
 
-메인 이미지: `public/images/scissor-doctor-portrait-autumn.png`. 사용자 제공 인물 사진을 애니메이션 화풍으로 변환한 초상화에 단풍과 가을 햇살을 더했습니다. 기존 이미지도 보관합니다.
+히어로는 3장의 광고 이미지를 배치한 스와이프형 슬라이더입니다. 6.5초 자동 재생, 정지·재생, 이전·다음, 광고 선택, 키보드 방향키 및 이미지 터치 스와이프를 지원합니다. 수동 조작 후 자동 재생이 멈추고, 마우스·키보드 포커스가 머무는 동안에도 일시 정지합니다. 움직임 줄이기 설정에서는 자동 재생과 전환 애니메이션을 끕니다.
+
+이미지는 `public/images/hero-sharpening-autumn.png`, `hero-hair-autumn.png`, `hero-pet-autumn.png`이며 제작 프롬프트는 `docs/hero-ad-prompts.md`에 기록했습니다. 사용자 제공 인물 사진을 변환한 `scissor-doctor-portrait-autumn.png`는 장인 소개 영역에 배치했습니다.
 
 서비스 카드에는 `scissor-sharpening-autumn.png`, `scissor-restoration-autumn.png`, `scissor-repair-autumn.png`를 사용합니다. 전체 화면은 크림·밤색·차분한 주황색으로 구성했습니다. 내장 이미지 생성 도구의 제작 프롬프트와 파일 정보는 `docs/autumn-image-prompts.md`에 기록했습니다.
 

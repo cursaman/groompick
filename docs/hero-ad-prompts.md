@@ -1,0 +1,15 @@
+# 히어로 광고 이미지
+
+내장 ImageGen 도구로 가을 분위기의 광고 이미지 3장을 생성했습니다. 실제 판매 상품이나 작업 현장 사진이 아닌 브랜드 이미지입니다.
+
+## public/images/hero-sharpening-autumn.png
+
+Use case: ads-marketing. Create a premium square hero advertising photograph for a Korean professional scissor sharpening workshop, first of three coordinated autumn advertisements. One professional silver straight hairdressing scissor partly open rests diagonally across a charcoal gray fine sharpening stone on a polished walnut workbench. Two ring handles, two real plausible blades, single central pivot, all scissor edges entirely inside frame with 15 percent breathing room. A neatly folded ivory linen and one small dried amber maple leaf at a far corner. Low gently overhead angle, subtle golden afternoon side light, deep chestnut, cream and muted burnt orange palette, realistic sharp metal detail, craftsmanship and precision, tasteful cinematic product advertising. Scissor is the hero subject, clean uncluttered composition. No text, lettering, numbers, logos, watermark, hands, people or collage. This will be used next to HTML headline about 30 years of scissor sharpening expertise.
+
+## public/images/hero-hair-autumn.png
+
+Use case: ads-marketing. Create one square premium advertising photograph for a Korean hair scissors maintenance specialist, coordinated autumn campaign image two. A single pair of elegant professional straight silver hairdressing scissors resting nearly closed diagonally on folded cream linen over a rich walnut dressing table. A dark tortoiseshell salon comb is softly out of focus in the background, one distant rust-orange maple leaf. The whole scissor including both finger rings, single pivot and two realistic polished straight blades fits fully inside generous 15 percent frame margins. Focus on the smooth blade edge and refined metal finish, close gently overhead photography, soft golden window light from upper left, warm ivory, chestnut and amber color harmony. Calm precision and professional hair cutting atmosphere, not a cluttered shop. No hands, no people, no text, no engraving, no logo, no watermark, no collage, no extra scissors.
+
+## public/images/hero-pet-autumn.png
+
+Use case: ads-marketing. Third coordinated autumn hero advertisement photograph for a Korean scissor repair specialist. One pair of professional curved dog grooming scissors, polished silver steel, partly open with two gently curved realistic cutting blades and two finger rings, one central adjustment screw, rests diagonally on soft warm caramel and cream linen over a walnut workbench. A neat pet grooming comb subtly in background, small dried amber maple leaf at far corner, no animal or person. The entire scissor visible with generous safe frame margin. Square premium product photograph, close gently overhead angle, golden late afternoon light from upper left, warm ivory, cinnamon and chestnut palette, crisp reflective metal but gentle background, minimal sophisticated editorial advertising. No text, brand, engraving, logo, watermark, collage or extra scissors. Clearly a functional curved grooming scissor with anatomically plausible hinge and handles.

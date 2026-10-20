@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Icon from './components/ui-icon';
+import HeroCarousel from './components/hero-carousel';
 
 export default function Home() {
   return <>
@@ -8,16 +9,7 @@ export default function Home() {
       <nav aria-label="주요 메뉴"><a href="#services"><Icon name="scissors"/>연마·수리</a><a href="#repair-process"><Icon name="clipboard"/>접수 안내</a><a href="#about"><Icon name="user"/>장인 소개</a><a href="#contact"><Icon name="phone"/>상담 문의</a></nav>
     </header>
     <main>
-      <section className="hero">
-        <div className="hero-copy">
-          <p className="eyebrow">전국 및 부산 가위 연마 · 사사끼 코리아 A/S 센터</p>
-          <h1>가위 수리는 역시,<br/><span>가위닥터</span></h1>
-          <p className="description">30년 장인의 손길로 정교하게 복원하는 가위날.<br/>헤어 미용 가위부터 애견미용 가위까지 섬세하게</p>
-          <div className="hero-actions"><a className="button" href="tel:01065644992"><Icon name="phone"/><span>가위닥터 사사끼에게 상담하기</span></a><a className="text-link" href="#services">연마·수리 알아보기</a></div>
-          <div className="credentials"><div><strong>30<span>년</span></strong><p><Icon name="award"/>가위 연마 경력</p></div><div><strong><span>약 </span>1,000<span>명</span></strong><p><Icon name="users"/>함께하는 고객</p></div></div>
-        </div>
-        <div className="hero-art hero-photo hero-portrait"><Image src="/images/scissor-doctor-portrait-autumn.png" alt="단풍과 가을 햇살이 있는 바닷가에서 미소 짓는 인물의 애니메이션 초상화" fill priority sizes="(max-width: 700px) calc(100vw - 48px), 440px"/><div className="photo-caption"><span>가위닥터 사사끼</span><p>가위 하나에 담는, 30년의 손길.</p></div></div>
-      </section>
+      <HeroCarousel/>
       <section id="services" className="services">
         <div className="section-heading"><div><p className="eyebrow">가위닥터 사사끼의 서비스</p><h2>오래 쓰는 가위의 곁에서.</h2></div><p>미용 가위와 애견 가위, 연마부터 수리까지.</p></div>
         <div className="service-grid">
@@ -41,7 +33,7 @@ export default function Home() {
         </ol>
         <div className="process-contact"><p>작업 기간과 배송비는 접수 상담 시 확인해주세요.</p><a className="text-link" href="tel:01065644992">접수 상담 010-6564-4992 ↗</a></div>
       </section>
-      <section id="about" className="about"><p className="eyebrow">SINCE 1995 · 30년, 가위와 함께한 시간</p><h2>한 길을 걸어온 장인.<br/>그 곁의 약 1,000명.</h2><p>안녕하세요. 가위닥터 사사끼, 대표 김태희입니다.<br/>30년 동안 쌓아온 경험으로 가위날을 정교하게 복원합니다.<br/>손에 익은 가위가 제 역할을 할 수 있도록,<br/>오늘도 가위 하나에 집중합니다.</p><span className="brand-sign">가위닥터 사사끼</span><p className="owner">대표 김태희 · 사사끼 코리아 가위 A/S 센터</p></section>
+      <section id="about" className="about"><Image className="about-portrait" src="/images/scissor-doctor-portrait-autumn.png" alt="가위닥터 장인 소개 초상화" width={112} height={140}/><p className="eyebrow">SINCE 1995 · 30년, 가위와 함께한 시간</p><h2>한 길을 걸어온 장인.<br/>그 곁의 약 1,000명.</h2><p>안녕하세요. 가위닥터 사사끼, 대표 김태희입니다.<br/>30년 동안 쌓아온 경험으로 가위날을 정교하게 복원합니다.<br/>손에 익은 가위가 제 역할을 할 수 있도록,<br/>오늘도 가위 하나에 집중합니다.</p><span className="brand-sign">가위닥터 사사끼</span><p className="owner">대표 김태희 · 사사끼 코리아 가위 A/S 센터</p></section>
       <section id="contact" className="contact"><div><p className="eyebrow">가위닥터 사사끼 상담실</p><h2>가위가 예전 같지 않다면.</h2><p>연마·날 복원·수리부터 택배 접수까지 친절하게 안내해드립니다.<br/>가위 종류와 불편한 점을 말씀해주세요.</p><p className="secondary-service">미용·애견 가위 구매 및 현장 출장 판매도 전화로 문의해주세요.</p></div><div className="contact-actions"><a className="phone" href="tel:01065644992" aria-label="가위닥터 사사끼 전화 상담 010-6564-4992"><Icon name="phone"/>010-6564-4992 <span aria-hidden="true">↗</span></a><a className="phone" href="tel:01096444689" aria-label="가위닥터 사사끼 전화 상담 010-9644-4689"><Icon name="phone"/>010-9644-4689 <span aria-hidden="true">↗</span></a><a className="text-link" href="https://blog.naver.com/kuh4689/222617975844" target="_blank" rel="noopener noreferrer">가위닥터 사사끼 작업 이야기 ↗</a></div></section>
     </main>
     <footer className="business-footer">
