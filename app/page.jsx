@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Home() {
   return <>
-    <header className="header"><a className="logo" href="#">가위닥터 사사끼<span>·</span></a><nav aria-label="주요 메뉴"><a href="#services">연마·수리</a><a href="#about">장인 소개</a><a href="#contact">상담 문의</a></nav></header>
+    <header className="header"><a className="logo" href="#">가위닥터 사사끼<span>·</span></a><nav aria-label="주요 메뉴"><a href="#services">연마·수리</a><a href="#repair-process">접수 안내</a><a href="#about">장인 소개</a><a href="#contact">상담 문의</a></nav></header>
     <main>
       <section className="hero">
         <div className="hero-copy">
@@ -27,6 +27,16 @@ export default function Home() {
           <div><span className="note-number">03</span><h3>불만족 시 100% 환불</h3><p>수리 결과에 대한 책임을 약속합니다.<br/>불편한 점이 있다면 연락해주세요.</p></div>
         </div>
       </section>
+      <section id="repair-process" className="repair-process" aria-labelledby="repair-process-title">
+        <div className="section-heading"><div><p className="eyebrow">수리 접수 안내</p><h2 id="repair-process-title">맡기기 전 상담부터, 수리 후 반송까지.</h2></div><p>택배를 보내기 전, 먼저 전화해주세요.</p></div>
+        <ol className="repair-steps">
+          <li><span className="step-number" aria-hidden="true">01</span><h3>전화 상담</h3><p>가위 종류와 수량, 불편한 점을 알려주세요. 접수 방법과 발송 안내를 도와드립니다.</p></li>
+          <li><span className="step-number" aria-hidden="true">02</span><h3>가위 발송</h3><p>상담 후 안내받은 주소로 보내주세요. 가위날을 보호해 포장하고 연락처를 함께 적어주세요.</p></li>
+          <li><span className="step-number" aria-hidden="true">03</span><h3>상태·비용 안내</h3><p>가위 상태를 확인한 뒤 수리 가능 여부와 비용을 안내합니다. 내용을 확인하고 작업을 진행합니다.</p></li>
+          <li><span className="step-number" aria-hidden="true">04</span><h3>수리·반송</h3><p>연마·복원·수리를 마친 가위를 반송합니다. 사용 후 궁금한 점은 전화로 문의해주세요.</p></li>
+        </ol>
+        <div className="process-contact"><p>작업 기간과 배송비는 접수 상담 시 확인해주세요.</p><a className="text-link" href="tel:01065644992">접수 상담 010-6564-4992 ↗</a></div>
+      </section>
       <section id="about" className="about"><p className="eyebrow">SINCE 1995 · 30년, 가위와 함께한 시간</p><h2>한 길을 걸어온 장인.<br/>그 곁의 약 1,000명.</h2><p>안녕하세요. 가위닥터 사사끼, 대표 김태희입니다.<br/>30년 동안 쌓아온 경험으로 가위날을 정교하게 복원합니다.<br/>손에 익은 가위가 제 역할을 할 수 있도록,<br/>오늘도 가위 하나에 집중합니다.</p><span className="brand-sign">가위닥터 사사끼</span><p className="owner">대표 김태희 · 사사끼 코리아 가위 A/S 센터</p></section>
       <section id="contact" className="contact"><div><p className="eyebrow">가위닥터 사사끼 상담실</p><h2>가위가 예전 같지 않다면.</h2><p>연마·날 복원·수리부터 택배 접수까지 친절하게 안내해드립니다.<br/>가위 종류와 불편한 점을 말씀해주세요.</p><p className="secondary-service">미용·애견 가위 구매 및 현장 출장 판매도 전화로 문의해주세요.</p></div><div className="contact-actions"><a className="phone" href="tel:01065644992" aria-label="가위닥터 사사끼 전화 상담 010-6564-4992">010-6564-4992 <span aria-hidden="true">↗</span></a><a className="phone" href="tel:01096444689" aria-label="가위닥터 사사끼 전화 상담 010-9644-4689">010-9644-4689 <span aria-hidden="true">↗</span></a><a className="text-link" href="https://blog.naver.com/kuh4689/222617975844" target="_blank" rel="noopener noreferrer">가위닥터 사사끼 작업 이야기 ↗</a></div></section>
     </main>
@@ -42,5 +52,12 @@ export default function Home() {
       </dl>
       <small>© {new Date().getFullYear()} 가위닥터 사사끼</small>
     </footer>
+    <aside className="mobile-contact-bar" aria-label="빠른 전화 상담">
+      <a className="mobile-process-link" href="#repair-process">접수 안내</a>
+      <a className="mobile-call-link" href="tel:01065644992" aria-label="가위닥터 사사끼 전화 상담 010-6564-4992">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true"><path strokeLinecap="round" strokeLinejoin="round" d="m7 3 3 5-2 2c1.5 3 3 4.5 6 6l2-2 5 3c-1 4-4 5-8 3S4 14 3 10 3 4 7 3Z"/></svg>
+        <span>전화 상담 <strong>010-6564-4992</strong></span>
+      </a>
+    </aside>
   </>;
 }
