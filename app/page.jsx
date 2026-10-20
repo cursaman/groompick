@@ -4,9 +4,8 @@ import Icon from './components/ui-icon';
 export default function Home() {
   return <>
     <header className="header">
-      <a className="logo" href="#"><Icon name="scissors"/>가위닥터 사사끼<span>·</span></a>
+      <a className="brand-badge" href="#" aria-label="가위닥터 사사끼 로고, 페이지 맨 위로"><Image src="/images/scissor-doctor-brand.svg" alt="가위 문양과 가위닥터 글자를 담은 로고, SINCE 1995" width={240} height={86}/></a>
       <nav aria-label="주요 메뉴"><a href="#services"><Icon name="scissors"/>연마·수리</a><a href="#repair-process"><Icon name="clipboard"/>접수 안내</a><a href="#about"><Icon name="user"/>장인 소개</a><a href="#contact"><Icon name="phone"/>상담 문의</a></nav>
-      <a className="brand-badge" href="#" aria-label="가위닥터 로고, 페이지 맨 위로"><Image src="/images/scissor-doctor-brand.svg" alt="가위 문양과 가위닥터 글자를 담은 로고, SINCE 1995" width={240} height={86}/></a>
     </header>
     <main>
       <section className="hero">
