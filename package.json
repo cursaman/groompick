@@ -2,6 +2,18 @@
   "name": "groompick",
   "version": "0.1.0",
   "private": true,
-  "scripts": { "dev": "next dev", "build": "next build", "start": "next start" },
-  "dependencies": { "next": "16.3.4", "react": "19.2.4", "react-dom": "19.2.4" }
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "import:products": "node scripts/import-products.mjs",
+    "test": "node --test scripts/catalog.test.mjs"
+  },
+  "dependencies": {
+    "next": "16.3.4",
+    "papaparse": "^5.7.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "type": "module"
 }
