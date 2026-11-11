@@ -5,9 +5,9 @@ import { useEffect, useRef, useState } from 'react';
 import Icon from './ui-icon';
 
 const slides = [
-  { label: '30년 장인의 정밀 연마', title: '가위 수리는 역시,', accent: '가위닥터', description: '30년 장인의 손길로 정교하게 복원하는 가위날.', image: '/images/hero-sharpening-winter.png', alt: '겨울 햇살이 비치는 숫돌 위의 일자 가위, 정밀 연마 광고', action: '연마·수리 상담' },
-  { label: '헤어 미용 가위 케어', title: '매일 손에 익은 가위,', accent: '다시 섬세하게.', description: '헤어 미용 가위의 무뎌진 날과 불편한 절삭감을 상담해주세요.', image: '/images/hero-hair-winter.png', alt: '크림색 린넨과 헤어 빗 옆의 일자 미용 가위 광고', action: '헤어 가위 상담' },
-  { label: '애견미용 가위 케어', title: '둥근 라인도 부드럽게,', accent: '섬세한 날의 차이.', description: '애견미용 커브 가위도, 가위의 쓰임에 맞춰 정교하게 다듬습니다.', image: '/images/hero-pet-winter.png', alt: '아이보리 린넨 위 애견미용 커브 가위 광고', action: '애견미용 가위 상담' },
+  { label: '30년 장인의 정밀 연마', title: '가위 수리는 역시,', accent: '가위닥터', description: '30년 장인의 손길로 정교하게 복원하는 가위날.', image: '/images/hero-sharpening-autumn.png', alt: '가을빛이 비치는 작업대의 숫돌과 일자 가위', action: '연마·수리 상담' },
+  { label: '헤어 미용 가위 케어', title: '매일 손에 익은 가위,', accent: '다시 섬세하게.', description: '헤어 미용 가위의 무뎌진 날과 불편한 절삭감을 상담해주세요.', image: '/images/hero-hair-autumn.png', alt: '크림색 린넨과 빗 옆에 놓인 헤어 미용 가위', action: '헤어 가위 상담' },
+  { label: '애견미용 가위 케어', title: '둥근 라인도 부드럽게,', accent: '섬세한 날의 차이.', description: '애견미용 커브 가위도, 가위의 쓰임에 맞춰 정교하게 다듬습니다.', image: '/images/hero-pet-autumn.png', alt: '린넨과 마른 단풍잎 옆에 놓인 애견미용 커브 가위', action: '애견미용 가위 상담' },
 ];
 
 export default function HeroCarousel() {
